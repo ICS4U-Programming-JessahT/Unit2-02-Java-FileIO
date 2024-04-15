@@ -1,15 +1,14 @@
-
-/**
- * program that reads files.
- *
- * @author Jessah
- * @version 1.0 @2024-03-27
- */
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
+
+/**
+ * Program that reads files.
+ *
+ * @author Jessah
+ * @version 1.0 @2024-03-27
+ */
 
 public final class FileIO {
 
