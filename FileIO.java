@@ -9,7 +9,6 @@ import java.util.Scanner;
  * @author Jessah
  * @version 1.0 @2024-03-27
  */
-
 public final class FileIO {
 
   /** Private constructor to prevent instantiation of this utility class. */
