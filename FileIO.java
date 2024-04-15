@@ -1,9 +1,11 @@
+
 /**
  * program that reads files.
  *
  * @author Jessah
  * @version 1.0 @2024-03-27
  */
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,9 +22,6 @@ public final class FileIO {
    * Main program.
    *
    * @param args Command-line arguments (not used in program).
-   * @param scanner
-   * @param arrOfStr
-   * @param split
    * @throws IOException
    */
 
