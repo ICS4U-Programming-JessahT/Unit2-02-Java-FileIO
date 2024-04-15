@@ -31,14 +31,14 @@ public final class FileIO {
     // Initialize sum.
     int sum = 0;
     // Get File.
-    File file = new File("Unit2/Unit2-02/Unit2-02-Java-FileIO/input.txt");
+    final File file = new File("Unit2/Unit2-02/Unit2-02-Java-FileIO/input.txt");
     // Scanner file objects.
-    Scanner scanner = new Scanner(file);
+    final Scanner scanner = new Scanner(file);
 
     // repeat when there is a next line of code.
     while (scanner.hasNext()) {
-      String line = scanner.nextLine();
-      String[] arrayStrings = line.split(" ");
+      final String line = scanner.nextLine();
+      final String[] arrayStrings = line.split(" ");
       // For each character on line.
       for (String element : arrayStrings) {
         try {
@@ -51,8 +51,9 @@ public final class FileIO {
       }
     }
     // Write sum to output.
-    FileWriter fileWriter = new FileWriter("output.txt");
-    fileWriter.write(sum);
+    final FileWriter fileWriter = new FileWriter("output.txt", true);
+
+    fileWriter.write(Integer.toString(sum));
     fileWriter.close();
 
     // Display when sum is written to txt.
